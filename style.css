@@ -1,0 +1,61 @@
+/* Базові налаштування */ 
+body {
+    font-family:  Comic Sans MS;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: cyan;
+}
+ 
+#answers-container{ 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+} 
+ 
+.answer-btn{ 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    border: white;
+    cursor: pointer; 
+    width: 48%; 
+    background-color: black;
+    color: cyan;
+} 
+.answer-btn:hover{ 
+    background-color: cyan
+    ; 
+    color: black; 
+}
+
+
+.hide{
+    display: none;
+}
+
+.correct{
+    background-color: rgb(0, 90, 0);
+    color: white;
+}
+
+.wrong{
+    background-color: rgb(190, 0, 0);
+    color: white;
+}
+#start-btn, #restart-btn{
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    background-color: #000000;
+    color: cyan;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}w
